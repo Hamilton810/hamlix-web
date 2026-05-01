@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 
 export default function HamlixIntegratedPortal() {
   const [hasMounted, setHasMounted] = useState(false);
-  const act6Ref = useRef(null);
+  const act6Ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => { 
     setHasMounted(true); 
